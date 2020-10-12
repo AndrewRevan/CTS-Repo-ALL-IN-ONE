@@ -1,0 +1,97 @@
+#define description
+class Header
+{
+	gameType = COOP;	// Game type
+};
+
+author = "Proxen Edit: Andrew";
+OnLoadName = "CTS Plantilla";
+OnLoadMission = "Prueba la plantilla de CTS.";
+OverviewText = "Prueba la plantilla de CTS.";
+loadScreen =__EVAL(selectRandom ['cts_assets\overview\overview.jpg','cts_assets\overview\overview2.jpg','cts_assets\overview\overview3.jpg','cts_assets\overview\overview4.jpg','cts_assets\overview\overview5.jpg','cts_assets\overview\overview6.jpg','cts_assets\overview\overview7.jpg','cts_assets\overview\overview8.jpg','cts_assets\overview\overview9.jpg','cts_assets\overview\overview10.jpg','cts_assets\overview\overview11.jpg','cts_assets\overview\overview12.jpg','cts_assets\overview\overview13.jpg','cts_assets\overview\overview14.jpg','cts_assets\overview\overview15.jpg','cts_assets\overview\overview16.jpg','cts_assets\overview\overview17.jpg']);
+
+
+#include "core\description.hpp" //DO NOT REMOVE
+#include "modules\modules.sqf" //DO NOT REMOVE
+
+#undef description
+#define description_functions
+
+class CfgFunctions {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+};
+	
+#undef description_functions
+#define description_titles
+	
+class rscTitles {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+};
+
+#undef description_titles
+#define description_notifications
+	
+class CfgNotifications {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+};
+
+#undef description_notifications
+
+#define description_sounds
+	
+class CfgSounds {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+};
+
+#undef description_sounds
+
+#define description_insignia
+	
+class CfgUnitInsignia {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+};
+
+#undef description_insignia
+
+#define description_params
+
+class Params {
+	
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+	
+};
+
+#undef description_params
+
+#define description_carrier
+
+class CfgCarrier {
+
+	#include "core\description.hpp" //DO NOT REMOVE
+	#include "modules\modules.sqf" //DO NOT REMOVE
+	
+};
+
+#undef description_carrier
+
+#define description_persistence
+
+	#include "modules\modules.sqf" //DO NOT REMOVE
+
+#undef description_persistence
